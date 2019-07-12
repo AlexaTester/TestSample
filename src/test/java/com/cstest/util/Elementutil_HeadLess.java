@@ -67,13 +67,7 @@ public class Elementutil_HeadLess
 	
 	public void browserSetup()
 	{
-		//newLocation= System.getProperty("user.dir") + File.separator + "downloadFiles";
-		System.setProperty("webdriver.chrome.driver", "E:\\SeleniumWorkspace\\TestSample\\src\\test\\resources\\Exefile_Driver\\chromedriver.exe"/*System.getProperty("user.dir")+properties.getProperty("chromedriverexepath")*/);
-		//Map<String, Object> prefs = new HashMap<String, Object>();
-       // prefs.put("download.default_directory",newLocation);
-	    //ChromeOptions options = new ChromeOptions();
-	    //options.setExperimentalOption("prefs", prefs);System.out.println(options.getExperimentalOption("prefs"));
-		//driver = new ChromeDriver(options);
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\Exefile_Driver\\chromedriver.exe"/*System.getProperty("user.dir")+properties.getProperty("chromedriverexepath")*/);
 		driver = new ChromeDriver()
 		action = new Actions(driver);
 	}
