@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59390" started-at="2019-07-12T03:06:29Z" finished-at="2019-07-12T03:07:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59390" started-at="2019-07-12T03:06:29Z" finished-at="2019-07-12T03:07:28Z">
+      <class name="com.cstest.test.CastlightTest">
+        <test-method status="PASS" signature="intialise()[pri:0, instance:com.cstest.test.CastlightTest@4667ae56]" name="intialise" is-config="true" duration-ms="702" started-at="2019-07-12T03:06:29Z" finished-at="2019-07-12T03:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialise -->
+        <test-method status="PASS" signature="elementClick()[pri:0, instance:com.cstest.test.CastlightTest@4667ae56]" name="elementClick" duration-ms="58639" started-at="2019-07-12T03:06:30Z" finished-at="2019-07-12T03:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementClick -->
+      </class> <!-- com.cstest.test.CastlightTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
